@@ -2,7 +2,7 @@
 .common-styles {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 .header {
   width: 500px;
@@ -38,14 +38,15 @@
   display: flex;
 }
 .menu {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
-.no-list-style{
-  list-style:none;
+.no-list-style {
+  list-style: none;
 }
+.menu__item,
 .no-outline {
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -53,7 +54,7 @@
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
 }
 .button:hover {
@@ -78,7 +79,7 @@
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   color: #888;
 }
 .text:focus {
@@ -136,14 +137,14 @@
 
 /* Edit Task */
 .menu__item .text {
-  display:none;
+  display: none;
 }
 
 .edit-mode .text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .menu__label {
-  display:none;
+  display: none;
 }
