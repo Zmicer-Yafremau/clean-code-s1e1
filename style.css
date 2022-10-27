@@ -45,7 +45,7 @@
   list-style: none;
 }
 .menu__item,
-.menu__no-outline {
+.main--no-outline {
   outline: none;
 }
 .button {
